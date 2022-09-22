@@ -1,0 +1,16 @@
+import java.io.*;  
+public class Swapper
+{  
+  public static void main(String[] args)
+  {  
+       int a, b, t;
+      System.out.println("Enter the value of X and Y");  
+       a=10;  
+       b=20;  
+       System.out.println("Numbers before swapping: "+a+"  "+b);  
+       t = a;  
+       a = b;  
+       b = t;  
+       System.out.println("After swapping the numbers: "+a+" "+b);  
+  }    
+}
