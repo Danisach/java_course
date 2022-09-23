@@ -1,0 +1,13 @@
+public class Asnn
+{
+	public static void main(String[] args)
+	{
+		int n=50,i=1,sum=0;
+		while(i<=n)
+		{
+          sum=sum+i;
+          i++;
+		}
+       System.out.println("Sum of all natural numbers from 1 to 50 is:"+sum);
+	}
+}
